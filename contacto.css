@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.bienvenida {
+  background-color: black;
+}
+@media (min-width: 900px) {
+  .bienvenida {
+    background: linear-gradient(90deg, #408195, #00d287);
+  }
+}
+.contacto__container {
+  padding-top: 50px;
+  background: inherit;
+}
+.contacto__title {
+  font-size: 48px;
+  font-family: "Montserrat";
+}

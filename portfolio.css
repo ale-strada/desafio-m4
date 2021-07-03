@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.portfolio__presentacion {
+  background-color: black;
+  margin: 0px;
+  padding: 10px;
+}
+@media (min-width: 900px) {
+  .portfolio__presentacion {
+    background: linear-gradient(45deg, #958c40, #9c00d2);
+    height: 650px;
+  }
+}
+
+.portfolio__presentacion-titulo {
+  text-align: center;
+  padding: 80px 0px;
+  margin: 0;
+  font-size: 48px;
+  font-family: "Montserrat";
+  color: white;
+}
+@media (min-width: 900px) {
+  .portfolio__presentacion-titulo {
+    margin-top: 60px;
+  }
+}
+.portfolio__trabajos {
+  background-color: black;
+  padding: 40px;
+  margin: 0px;
+}
+@media (min-width: 900px) {
+  .portfolio__trabajos {
+    padding-top: 100px;
+  }
+}
+.portfolio__trabajos-container {
+  color: white;
+  font-family: "Poppins";
+}
+@media (min-width: 900px) {
+  .portfolio__trabajos-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: flex-start;
+    /* gap: 70px; */
+  }
+}
+.portfolio__trabajo-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.portfolio__trabajo-foto {
+  width: 290px;
+  height: 170px;
+}
+.portfolio__trabajo-titulo {
+  font-size: 24px;
+  margin-bottom: 0px;
+}
+.portfolio__trabajo-descripcion {
+  font-size: 16px;
+  max-width: 290px;
+  text-align: center;
+}
+.portfolio__trabajo-link {
+  color: #fc6f50;
+  font-size: 24px;
+  margin-bottom: 80px;
+}

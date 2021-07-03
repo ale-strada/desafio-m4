@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins&display=swap" rel="stylesheet">
+    <!-- -------------- -->
+    <!-- componente header -->
+    <script defer src="./header/header.js"></script>
+    <link rel="stylesheet" href="./header/header.css">
+    <!-- ----------- -->
+    <!-- componente footer -->
+    <script defer src="./footer/footer.js"></script>
+    <link rel="stylesheet" href="./footer/footer.css">
+    <!-- ----------- -->
+    <script defer src="./portfolio.js"></script>
+    <link rel="stylesheet" href="./portfolio.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="portfolio__presentacion">
+     <div class="componente-header"></div>  
+     <h1 class="portfolio__presentacion-titulo">Portfolio</h1> 
+    </section>
+    <section class="portfolio__trabajos">
+        <div class="portfolio__trabajos-container"></div>
+        <template id="portfolio__card-template">
+            <div class="portfolio__trabajo-box">
+            <img src="./imagenes/oficinas.jpg" class="portfolio__trabajo-foto">
+            <h3 class="portfolio__trabajo-titulo"></h3>
+            <p class="portfolio__trabajo-descripcion"></p>
+            <a class="portfolio__trabajo-link" href="www.ejemplo.com">http://apx.school</a> 
+            </div>
+   
+            </template>
+    </section>
+    <div class="componente-footer"></div>
+    
+</body>
+</html>

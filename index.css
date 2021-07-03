@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.foto {
+  width: 100%;
+  height: 620px;
+  position: absolute;
+  top: 0;
+}
+.bienvenida {
+  height: 620px;
+  background-image: url(./imagenes/oficinas.jpg);
+  background-size: cover;
+  background-position: top;
+  margin-bottom: 0px;
+}
+.bienvenida__mensaje-container {
+  text-align: center;
+  color: white;
+  font-family: "Montserrat";
+}
+.bienvenida__saludo {
+  font-size: 48px;
+}
+.bienvenida__presentacion {
+  font-size: 32px;
+  font-family: "Montserrat";
+}
+.presentacion {
+  background-color: #141414;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding: 40px 32px;
+  height: 540px;
+}
+
+@media (min-width: 900px) {
+  .presentacion {
+    background-color: inherit;
+    color: black;
+    padding: 0 32px;
+    justify-content: flex-end;
+  }
+}
+.presentacion__texto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (min-width: 900px) {
+  .presentacion__contenido-caja {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+  }
+  .presentacion__texto {
+    padding-right: 150px;
+    padding-left: 50px;
+  }
+}
+.presentacion__foto {
+  display: none;
+}
+@media (min-width: 900px) {
+  .presentacion__foto {
+    display: inherit;
+    width: 380px;
+    height: 480px;
+    margin-bottom: 0px;
+  }
+}
+.presentacion__parrafo {
+  font-size: 16px;
+  font-family: "Poppins";
+  padding: 25px 0;
+}
+.contacto__container {
+  background-color: #141414;
+}
